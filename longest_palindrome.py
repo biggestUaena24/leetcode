@@ -12,7 +12,7 @@ def longestPalindrome(s: str) -> str:
     
     return solution
 
-
+# This is the solution that we use check if a string is palindrome from the center of the substring to get the biggest substring
 def longestPalindrome_2(self, s: str) -> str:
     res = ""
     reslen = 0
